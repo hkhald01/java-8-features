@@ -19,6 +19,8 @@ public class ComparatorLambdaExample {
 
     System.out.println("Result of comparator is: " + comparator.compare(3, 2));
 
+    // java 8 lambda
+
     Comparator<Integer> comparatorLambda = (a, b) -> a.compareTo(b);
 
     System.out.println("Result of comparator is: " + comparatorLambda.compare(4, 5));
