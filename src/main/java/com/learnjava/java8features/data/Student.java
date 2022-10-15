@@ -18,4 +18,12 @@ public class Student {
   private String gender;
   private int noteBooks;
   List<String> activities = new ArrayList<>();
+
+  public Student(String name) {
+    this.name = name;
+  }
+
+  public void printListOfActivities() {
+    System.out.println(activities);
+  }
 }
